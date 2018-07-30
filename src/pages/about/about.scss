@@ -1,0 +1,62 @@
+page-about {
+
+ @media screen and (min-width: 320px) and (max-width: 970px){
+.principal{
+	width:160px;
+	height:100px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+}
+.m2{
+	width:350px;
+	heighth:170px;
+}
+.programacion{
+	background-color:#d0f4ba;
+}
+.boody{
+	background-color:#ff3535;
+}
+.adm{
+	background-color:#fdb75f;
+}
+.soy{
+	background-color:#e394d8;
+}
+@media screen and (min-width: 500px) and (max-width: 1024px){
+.m2{
+	width: 700px;
+    height: 300px;
+}
+ .principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+}
+@media screen and (min-width: 1000px){
+.principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    .m2{
+    width:1300px;
+    height:530px;
+    }
+     .gif_{
+    width:600px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+}
+}

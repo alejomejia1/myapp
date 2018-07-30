@@ -1,0 +1,52 @@
+page-contact {
+@media screen and (min-width: 320px) and (max-width: 970px){
+.principal{
+	width:160px;
+	height:100px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+}
+.fondo-contacto{
+	background-color:#f4d7e7;
+}
+ion-list{
+	background-color:orange;
+}
+.gif_{
+	background-color:#589dfd;
+}
+.programacion{
+	background-color:#d0f4ba;
+}
+@media screen and (min-width: 500px) and (max-width: 1024px){
+.principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+}
+@media screen and (min-width: 1000px){
+.principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    .gif_{
+    width:600px;
+    height:500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+
+}
+
+
+}

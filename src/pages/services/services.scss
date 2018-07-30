@@ -1,0 +1,50 @@
+page-services {
+@media screen and (min-width: 320px) and (max-width: 970px){
+.principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.car-pits{
+	width: 370px;
+    height: 180px;
+}
+}
+.programacion{
+	background-color:#d0f4ba;
+}
+.serv{
+	background-color:#f7f97c;
+}
+.gif_{
+	background-color:#f95757;
+}
+@media screen and (min-width: 500px) and (max-width: 970px){
+.car-pits{
+	width: 700px;
+    height: 350px;
+}
+}
+@media screen and (min-width: 1024px){
+.principal{
+	width:130px;
+	height:70px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+     .gif_{
+    width:600px;
+    height:650px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
+    .car-pits{
+    width:1200px;
+    height:500px;
+    }
+}
+}

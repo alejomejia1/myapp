@@ -1,0 +1,30 @@
+<button full ion-button (click)="login()" [disabled]="!loginData.email || !loginData.password">Login</button>
+<ion-content class="background">
+	<h1>Santy Cars</h1>
+	<ion-card>
+		<ion-card-header>Login</ion-card-header>
+		<ion-card-content>
+ <ion-list no-lines>
+   <ion-item>
+     <ion-label floating>E-mail</ion-label>
+     <ion-input type="email" [(ngModel)]="loginData.email"></ion-input>
+ </ion-item>
+ <ion-item>
+ 	<ion-label floating>Password</ion-label>
+ 	<ion-input type="password" [(ngModel)]="loginData.password"></ion-input>
+ </ion-item>
+
+<button ion-button outline block color="danger"(click)="login()">Login</button>
+<a href="#" (click)="signup()">Signup for an Account</a>
+
+</ion-list>
+<b>OR</b>
+<button ion-button color="google" ion-left block>
+<ion-icon name="logo-google"></ion-icon>
+<div>Login with google</div>
+</button>
+</ion-card-content>
+</ion-card>
+
+</ion-content>
+
